@@ -71,9 +71,17 @@ content="Vedam World - Wholesale & Retail Supplier of Plastic Household Products
 
 <div class="container">
 
+<div class="brand-wrapper">
+
 <a class="navbar-brand fw-bold" href="#">
-Vedam World
+    VEDAM<span style="color:#$FFD54F">WORLD</span>
 </a>
+
+ <div class="brand-tagline">
+        Building Better Household Solutions
+    </div>
+
+</div>
 
 <button class="navbar-toggler"
 type="button"
@@ -103,7 +111,12 @@ data-bs-target="#navbarNav">
 <li class="nav-item">
 <a class="nav-link" href="contact.html">Reach Out</a>
 </li>
-
+<li class="nav-item ms-lg-3">
+    <a class="btn btn-warning rounded-pill px-4"
+       href="contact.html">
+       Become Dealer
+    </a>
+</li>
 </ul>
 
 </div>
@@ -122,16 +135,23 @@ data-bs-target="#navbarNav">
 
 <div class="col-lg-6">
 
-<h1 data-aos="fade-right">
+<h1>
 Quality Plastic Products &
 Home Appliances
 </h1>
 
-<p data-aos="fade-right" data-aos-delay="200">
+<p>
 
 Wholesale & Retail Supply Across Maharashtra & India
 
 </p>
+<div class="hero-badges" style="color:white">
+
+    <span>✓ Premium Quality</span>
+    <span>✓ Bulk Orders</span>
+    <span>✓ Fast Delivery</span>
+
+</div>
 
 <a href="products.html"
 class="btn btn-primary btn-lg">
@@ -357,6 +377,27 @@ Your Trusted Plastic Products Partner.
 
 </footer>
 
+<script src="bts/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    const loader = document.getElementById("loader");
+
+    if(sessionStorage.getItem("loaderShown")){
+
+        loader.style.display = "none";
+
+    }else{
+
+        sessionStorage.setItem("loaderShown", "true");
+
+    }
+
+});
+
+</script>
 
 </body>
 </html>
