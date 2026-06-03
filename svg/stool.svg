@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+    <defs>
+        <linearGradient id="stoolGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#10b981"/>
+            <stop offset="100%" stop-color="#059669"/>
+        </linearGradient>
+    </defs>
+
+    <rect x="40"
+          y="45"
+          width="120"
+          height="25"
+          rx="10"
+          fill="url(#stoolGrad)"/>
+
+    <rect x="50" y="70" width="12" height="70" fill="#059669"/>
+    <rect x="138" y="70" width="12" height="70" fill="#059669"/>
+
+    <rect x="80" y="70" width="12" height="70" fill="#059669"/>
+    <rect x="108" y="70" width="12" height="70" fill="#059669"/>
+
+</svg>

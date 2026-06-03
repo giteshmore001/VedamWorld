@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+    <defs>
+        <linearGradient id="potGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ef4444"/>
+            <stop offset="100%" stop-color="#dc2626"/>
+        </linearGradient>
+    </defs>
+
+    <path d="M55 70
+             L145 70
+             L125 145
+             L75 145 Z"
+          fill="url(#potGrad)"/>
+
+    <ellipse cx="100"
+             cy="70"
+             rx="45"
+             ry="10"
+             fill="#b91c1c"/>
+
+    <path d="M100 70
+             C90 45 85 30 100 20
+             C115 30 110 45 100 70"
+          fill="#16a34a"/>
+
+</svg>
